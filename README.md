@@ -77,12 +77,6 @@ npm run dev
 - API docs: http://localhost:8000/docs
 - Prueba de conexión a la base de datos: http://localhost:8000/test-db
 
-## Antes de subir a Git
-
-- No subas `.env`, `frontend/.env`, `venv/` ni `node_modules/`.
-- Revisa que no queden credenciales reales en `app/core/config.py`.
-- Ejecuta `git status` antes de hacer el commit para confirmar qué archivos se van a subir.
-
 ## Estructura de archivos de configuración
 
 - [.env.example](.env.example): variables del backend.
